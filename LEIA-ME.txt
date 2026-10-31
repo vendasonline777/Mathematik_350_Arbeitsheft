@@ -1,0 +1,17 @@
+SITE PRONTO — MATHEMATIK: ABENTEUER IN MINECRAFT
+
+O arquivo principal é index.html. As imagens, folhas de estilo e scripts estão nas pastas e arquivos ao lado. Mantenha essa estrutura ao mover ou publicar o site.
+
+Para publicar, envie todo o conteúdo desta pasta para uma hospedagem de sites estáticos. Não é necessário instalar dependências ou compilar.
+
+O checkout Hotmart já está configurado nos botões de compra e em config.js:
+https://pay.hotmart.com/R108273343F?checkoutMode=10
+
+O temporizador de 24 horas usa cookie e armazenamento local por navegador. Para conferir o comportamento dos cookies, use uma hospedagem ou servidor HTTP local.
+
+Versão publicada:
+https://mathe-block-abenteuer.pluckyhake30.chatgpt.site/
+
+PIXEL META / FACEBOOK
+ID: 2175878289972586
+Instalado em meta-pixel.js. O pixel carrega somente depois de aceitar marketing no aviso em alemão. Evento configurado: PageView. A escolha pode ser alterada pelo botão Cookie-Einstellungen no rodapé. Esta instalação é da página de vendas; o checkout externo da Hotmart é separado. O recebimento dos eventos na conta Meta não foi verificado.
