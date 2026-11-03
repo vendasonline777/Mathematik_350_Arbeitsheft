@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     script.async = true;
     script.src = 'https://connect.facebook.net/en_US/fbevents.js';
     document.head.appendChild(script);
+    window.MATHE_LOAD_UTMIFY?.();
   };
   const stopPixel = () => {
     if (!installed) return;

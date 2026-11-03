@@ -15,3 +15,6 @@ https://mathe-block-abenteuer.pluckyhake30.chatgpt.site/
 PIXEL META / FACEBOOK
 ID: 2175878289972586
 Instalado em meta-pixel.js. O pixel carrega somente depois de aceitar marketing no aviso em alemão. Evento configurado: PageView. A escolha pode ser alterada pelo botão Cookie-Einstellungen no rodapé. Esta instalação é da página de vendas; o checkout externo da Hotmart é separado. O recebimento dos eventos na conta Meta não foi verificado.
+
+UTMIFY
+Script de UTMs instalado em utmify-loader.js e registrado no head do index.html. Preservados o endereço https://cdn.utmify.com.br/scripts/utms/latest.js, async, defer e data-utmify-prevent-subids. Carrega após aceitar marketing em Cookie-Einstellungen, junto com o Meta Pixel. A escolha pode ser alterada no rodapé. O recebimento dos dados na conta UTMify não foi verificado.
