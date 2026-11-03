@@ -1,20 +1,20 @@
 SITE PRONTO — MATHEMATIK: ABENTEUER IN MINECRAFT
 
-O arquivo principal é index.html. As imagens, folhas de estilo e scripts estão nas pastas e arquivos ao lado. Mantenha essa estrutura ao mover ou publicar o site.
+Arquivo principal: index.html. Mantenha todos os arquivos e subpastas ao publicar. O site é estático e não requer instalação nem compilação.
 
-Para publicar, envie todo o conteúdo desta pasta para uma hospedagem de sites estáticos. Não é necessário instalar dependências ou compilar.
-
-O checkout Hotmart já está configurado nos botões de compra e em config.js:
+Checkout Hotmart configurado:
 https://pay.hotmart.com/R108273343F?checkoutMode=10
 
-O temporizador de 24 horas usa cookie e armazenamento local por navegador. Para conferir o comportamento dos cookies, use uma hospedagem ou servidor HTTP local.
-
-Versão publicada:
+Site publicado:
 https://mathe-block-abenteuer.pluckyhake30.chatgpt.site/
 
-PIXEL META / FACEBOOK
-ID: 2175878289972586
-Instalado em meta-pixel.js. O pixel carrega somente depois de aceitar marketing no aviso em alemão. Evento configurado: PageView. A escolha pode ser alterada pelo botão Cookie-Einstellungen no rodapé. Esta instalação é da página de vendas; o checkout externo da Hotmart é separado. O recebimento dos eventos na conta Meta não foi verificado.
+O temporizador da oferta mantém um prazo individual de 24 horas por navegador, com cookie e armazenamento local.
 
-UTMIFY
-Script de UTMs instalado em utmify-loader.js e registrado no head do index.html. Preservados o endereço https://cdn.utmify.com.br/scripts/utms/latest.js, async, defer e data-utmify-prevent-subids. Carrega após aceitar marketing em Cookie-Einstellungen, junto com o Meta Pixel. A escolha pode ser alterada no rodapé. O recebimento dos dados na conta UTMify não foi verificado.
+RASTREAMENTO UTMIFY
+A instalação direta do pixel do Facebook foi removida, inclusive o antigo meta-pixel.js.
+Pixel UTMify: 6aea2947160e2449f6da9d43.
+Carregadores separados no HEAD do index.html: utmify-loader.js (UTMs) e utmify-pixel-loader.js (pixel). Os dois SDKs externos também são inseridos exclusivamente no HEAD após consentimento.
+Consentimento de marketing: marketing-consent.js, também registrado no HEAD.
+O script de UTMs anterior foi mantido. O pixel e as UTMs da UTMify carregam depois de aceitar marketing, uma vez por página, com async e defer. A escolha pode ser alterada em Cookie-Einstellungen no rodapé.
+O recebimento dos dados no painel UTMify e o comportamento interno dos SDKs remotos não foram verificados. O checkout externo é configurado separadamente da página de vendas.
+
